@@ -1,0 +1,32 @@
+{
+  "name": "comparer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "yargs": "^12.0.1"
+  },
+  "devDependencies": {
+    "@types/mime-types": "^2.1.0",
+    "@types/node": "^10.5.2",
+    "@types/yargs": "^11.1.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^5.0.0-alpha.3",
+    "typescript": "^2.9.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshishKadyan/comparer.git"
+  },
+  "author": "ashish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AshishKadyan/comparer/issues"
+  },
+  "homepage": "https://github.com/AshishKadyan/comparer#readme"
+}
